@@ -41,6 +41,7 @@ body {
 .logo img {
 	margin-top:25%;
 	width:200px;
+	z-index:3;
 }
 .header img {
 	display:none;
