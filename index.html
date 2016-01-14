@@ -20,12 +20,7 @@
     <!--favicon-->
     <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico"/>
      
-     <script>
-	 $(document).ready(function(){
-		 $('#header').load("header.html");
-		 $('#footer').load("footer.html");
-	 });
-	 </script>
+    
 </head><body>
     <div id="header"></div>
     
@@ -48,15 +43,14 @@
         
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
-        
-              <div class="item active">
-                <h2 align='center'>Hey</h2>
+        	  <div class="item active">
+                <h2>Hey</h2>
                 <div class="carousel-caption">
                 </div>
               </div>
         
               <div class="item">
-                <h2 align='center'>Hey there!</h2>
+                <h2> Hey there!</h2>
                 <div class="carousel-caption">
                 </div>
               </div>
@@ -78,5 +72,8 @@
        </div>
     </div>
     <div id="footer"></div>
-
+	 <script>
+	 	$('#header').load("header.html");
+		$('#footer').load("/footer.html");
+	 </script>
 </body></html>
